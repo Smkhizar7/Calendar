@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- <div id="head">Calender</div> -->
+    <div id="container">
+        <div id="month">
+            <div>
+                <img src="./previous.png" alt="Previous Icon" id="lang" onclick="previousYear()">
+                <h1 id="year">2021</h1>
+                <img src="./next.png" alt="Next Icon" id="rang" onclick="nextYear()">
+            </div>
+            <div>
+                <img src="./previous.png" alt="Previous Icon" id="lang" onclick="previousMonth()">
+                <h1 id="mname"></h1>
+                <img src="./next.png" alt="Next Icon" id="rang" onclick="nextMonth()">
+            </div>
+            <p id="date"></p>
+        </div>
+        <div id="calendar">
+            <div id="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div id="days">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
